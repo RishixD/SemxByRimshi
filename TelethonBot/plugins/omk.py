@@ -3,4 +3,4 @@ from telethon import events
 
 @BotzHub.on(events.NewMessage(pattern="/skip"))
 async def oommkkj(event):
-  await event.send(event.chat_id, "**jana lwde**")
+  await BotzHub.send_message(event.chat_id, "**jana lwde**")
