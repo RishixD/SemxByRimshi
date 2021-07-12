@@ -12,7 +12,7 @@ async def _(event):
   await BotzHub.send_message(event.chat_id, f"Done added {text}")
   await event.reply("PERU HERE",
                     buttons=[
-                        [Button.url("𝙼𝚢 𝚌𝚛𝚎𝚊𝚝𝚘𝚛", "t.me/ShashankxD")]
+                        [Button.url("𝙼𝚢 𝚌𝚛𝚎𝚊𝚝𝚘𝚛", "t.me/rishi_introvert")]
                     ])
 
     
@@ -31,7 +31,7 @@ async def start_all(event):
 ###################################################
 @BotzHub.on(events.callbackquery.CallbackQuery(data="creator"))
 async def creator(event):
-    await event.edit(event.chat_id, "𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙼𝙰𝚂𝚃𝙴𝚁 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴  @ShashankxD")
+    await event.edit(event.chat_id, "𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙼𝙰𝚂𝚃𝙴𝚁 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴's USERNAME @RiSHi_iNTROVERT  ")
 
 ########################################################################################################################################
 
